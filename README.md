@@ -1,4 +1,4 @@
-Synoptic Project Go API
+Forum API in Go
 
 Set-up: 
 
