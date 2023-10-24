@@ -2,12 +2,12 @@
 
 My first attempt at writing a REST API in Go, also using postgres and docker. The server runs on localhost:8080 by default and the allowed origin is localhost:5173, both can be changed in main.go.
 
-Database schema:
+<h3>**Database schema:**</h3>
 
 ![image](https://github.com/LiamFarese/Forum-API-in-Go/assets/108936972/3273b52b-7f5a-46aa-8f4e-bacfc7465172)
 
 
-Set-up: 
+<h3>**Set-up:**</h3>
 
     Have docker installed and have pulled the postgres 15.3 image
 
@@ -20,11 +20,13 @@ Set-up:
 
 To start server, make sure your docker container is running
 
-Start:
+<h3>**Start:**</h3>
+
+To start server, make sure your docker container is running, then from project root:
 
     go run cmd/main.go
 
-API Usage:
+<h3>**API Usage:**</h3>
 
     User endpoints:
 
