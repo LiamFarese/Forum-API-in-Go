@@ -26,7 +26,7 @@ To start server, make sure your docker container is running, then from project r
 
     go run cmd/main.go
 
-<h3>API Usage</h3>
+<h3>API Usage:</h3>
 
     User endpoints:
 
