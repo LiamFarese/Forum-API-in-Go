@@ -1,6 +1,6 @@
 <h1>Forum API in Go</h1>
 
-My first attempt at writing a REST API in Go, also using postgres and docker. The server runs on localhost:8080 by default and the allowed origin is localhost:5173, both can be changed in main.go.
+My first attempt at writing a REST API in Go, also using postgres 15.3 and docker. The server runs on localhost:8080 by default and the allowed origin is localhost:5173, both can be changed in main.go.
 
 <h3>Database schema:</h3>
 
@@ -9,10 +9,11 @@ My first attempt at writing a REST API in Go, also using postgres and docker. Th
 
 <h3>Set-up:</h3>
 
-Have docker installed and running
+have docker installed and running and Go 1.2 or newer installed
 
     Run the following commands:
 
+        make pullpostgres
         make postgres
         make createdb
         make migrateup
