@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"Github.com/Synoptic2023/internal/comment"
-	"Github.com/Synoptic2023/internal/listing"
-	"Github.com/Synoptic2023/internal/post"
-	"Github.com/Synoptic2023/internal/user"
+	"Github.com/Forum-API-in-Go/internal/comment"
+	"Github.com/Forum-API-in-Go/internal/listing"
+	"Github.com/Forum-API-in-Go/internal/post"
+	"Github.com/Forum-API-in-Go/internal/user"
 )
 
 const alphabet = "abcdefghijklmnopqrstuvwxyz"
