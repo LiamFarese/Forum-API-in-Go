@@ -18,8 +18,6 @@ My first attempt at writing a REST API in Go, also using postgres and docker. Th
         make migrateup
 
 
-To start server, make sure your docker container is running
-
 <h3>Start:</h3>
 
 To start server, make sure your docker container is running, then from project root:
