@@ -24,7 +24,7 @@ API Usage:
     User endpoints:
 
         /register - POST - takes following format json: {"username":"","password":"",role:""}
-        /login - POST - takes following format jsonL {"username":"","password":""}
+        /login - POST - takes following format json: {"username":"","password":""}
 
         /users - GET - returns all users on database
         /profile/{ID} - GET - ID is the id of the user, this returns the users profile which consists of their info, listings and posts
