@@ -22,4 +22,4 @@ createtestdb:
 migrateuptest:
 	migrate -path ./db/migrations -database "postgresql://root:secret@localhost:5432/forumtest?sslmode=disable" -verbose up
 
-.PHONY: postgres createdb dropdb migrateup migratedown createtestdb migrateuptest
+.PHONY: pullpostgres postgres createdb dropdb migrateup migratedown createtestdb migrateuptest
