@@ -4,10 +4,10 @@ import (
 	"log"
 	"net/http"
 
-	"Github.com/Synoptic2023/internal/comment"
-	"Github.com/Synoptic2023/internal/listing"
-	"Github.com/Synoptic2023/internal/post"
-	"Github.com/Synoptic2023/internal/user"
+	"Github.com/Forum-API-in-Go/internal/comment"
+	"Github.com/Forum-API-in-Go/internal/listing"
+	"Github.com/Forum-API-in-Go/internal/post"
+	"Github.com/Forum-API-in-Go/internal/user"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
@@ -19,7 +19,7 @@ import (
 func main() {
 
 	//start database connection
-	db, err := sqlx.Connect("pgx", "postgresql://root:secret@localhost:5432/synoptic?sslmode=disable")
+	db, err := sqlx.Connect("pgx", "postgresql://root:secret@localhost:5432/forum?sslmode=disable")
 
 	if err != nil {
 		log.Fatalf("could not connect to the database %s", err)

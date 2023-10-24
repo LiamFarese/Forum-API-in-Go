@@ -1,8 +1,8 @@
 package user
 
 import (
-	"Github.com/Synoptic2023/internal/listing"
-	"Github.com/Synoptic2023/internal/post"
+	"Github.com/Forum-API-in-Go/internal/listing"
+	"Github.com/Forum-API-in-Go/internal/post"
 	"github.com/jackc/pgx/pgtype"
 )
 

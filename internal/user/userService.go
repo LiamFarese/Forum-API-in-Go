@@ -1,7 +1,7 @@
 package user
 
 import (
-	"Github.com/Synoptic2023/internal/util"
+	"Github.com/Forum-API-in-Go/internal/util"
 )
 
 type UserService interface {

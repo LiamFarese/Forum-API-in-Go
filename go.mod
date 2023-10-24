@@ -1,4 +1,4 @@
-module Github.com/Synoptic2023
+module Github.com/Forum-API-in-Go
 
 go 1.20
 

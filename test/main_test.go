@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	"Github.com/Synoptic2023/internal/comment"
-	"Github.com/Synoptic2023/internal/listing"
-	"Github.com/Synoptic2023/internal/post"
-	"Github.com/Synoptic2023/internal/user"
+	"Github.com/Forum-API-in-Go/internal/comment"
+	"Github.com/Forum-API-in-Go/internal/listing"
+	"Github.com/Forum-API-in-Go/internal/post"
+	"Github.com/Forum-API-in-Go/internal/user"
 	_ "github.com/jackc/pgx/v5/stdlib"
 	"github.com/jmoiron/sqlx"
 	"github.com/stretchr/testify/require"
@@ -20,7 +20,7 @@ var ListRepo listing.ListingRepository
 var CommentRepo comment.CommentRepository
 
 func TestMain(m *testing.M) {
-	db, err := sqlx.Connect("pgx", "postgresql://root:secret@localhost:5432/synoptictest?sslmode=disable")
+	db, err := sqlx.Connect("pgx", "postgresql://root:secret@localhost:5432/forumtest?sslmode=disable")
 	if err != nil {
 		log.Fatal(err)
 	}
