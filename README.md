@@ -1,5 +1,7 @@
 Forum API in Go
 
+My first attempt at writing a web API in Go, also using postgres and docker. The server runs on localhost:8080 by default and the allowed origin is localhost:5173, both can be changed in main.go.
+
 Set-up: 
 
     Have docker installed and have pulled the postgres 15.3 image
@@ -15,7 +17,7 @@ To start server, make sure your docker container is running
 
 Start:
 
-    go run server/cmd/main.go
+    go run cmd/main.go
 
 API Usage:
 
