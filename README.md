@@ -9,7 +9,7 @@ My first attempt at writing a REST API in Go, also using postgres and docker. Th
 
 <h3>Set-up:</h3>
 
-    Have docker installed and have pulled the postgres 15.3 image
+Have docker installed and running
 
     Run the following commands:
 
