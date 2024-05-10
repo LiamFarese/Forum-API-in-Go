@@ -57,6 +57,7 @@ To start server, make sure your docker container is running, then from project r
 <h3>Changes I'd like to make in the future:</h3>
 
 * Include authentication with OAuth2
+* protecting endpoints with tokens
 
 
 
